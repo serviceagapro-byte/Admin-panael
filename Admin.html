@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ToursPro Admin Panel</title>
+  <link rel="stylesheet" href="admin-style.css">
+  <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-storage.js"></script>
+</head>
+<body>
+  <div class="sidebar">
+    <h2>ToursPro Admin</h2>
+    <ul>
+      <li><a href="#" onclick="showDashboard()">Dashboard</a></li>
+      <li><a href="#" onclick="showTours()">Tours</a></li>
+      <li><a href="#" onclick="showImages()">Images</a></li>
+      <li><a href="#" onclick="showTexts()">Texts</a></li>
+      <li><a href="#" onclick="showTemplates()">Templates</a></li>
+      <li><a href="#" onclick="showPlugins()">Plugins</a></li>
+      <li><a href="#" onclick="showSocial()">Social Media</a></li>
+    </ul>
+  </div>
+
+  <div class="main-content" id="main-content">
+    <h1>Welcome to ToursPro Admin Panel</h1>
+    <p>Select a menu from the sidebar to manage content.</p>
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>
